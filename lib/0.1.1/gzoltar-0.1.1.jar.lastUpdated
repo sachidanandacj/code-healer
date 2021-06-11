@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 06 22:09:44 IST 2021
+http\://sachaproject.gforge.inria.fr/repositories/releases/.lastUpdated=1622997584612
+http\://spoon.gforge.inria.fr/repositories/snapshots/.error=Could not transfer artifact com.gzoltar\:gzoltar\:jar\:0.1.1 from/to gforge.inria.fr-snapshot (http\://spoon.gforge.inria.fr/repositories/snapshots/)\: hostname in certificate didn't match\: <spoon.gforge.inria.fr> \!\= <www.github.com> OR <www.github.com> OR <*.github.com> OR <github.com> OR <*.github.io> OR <github.io> OR <*.githubusercontent.com> OR <githubusercontent.com>
+http\://spoon.gforge.inria.fr/repositories/releases/.error=Could not transfer artifact com.gzoltar\:gzoltar\:jar\:0.1.1 from/to inria (http\://spoon.gforge.inria.fr/repositories/releases/)\: hostname in certificate didn't match\: <spoon.gforge.inria.fr> \!\= <www.github.com> OR <www.github.com> OR <*.github.com> OR <github.com> OR <*.github.io> OR <github.io> OR <*.githubusercontent.com> OR <githubusercontent.com>
+@default-gforge.inria.fr-snapshot-http\://spoon.gforge.inria.fr/repositories/snapshots/.lastUpdated=1622997579963
+@default-inria-http\://spoon.gforge.inria.fr/repositories/releases/.lastUpdated=1622997577545
