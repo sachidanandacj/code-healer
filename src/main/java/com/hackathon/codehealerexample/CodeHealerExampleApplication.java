@@ -10,10 +10,9 @@ public class CodeHealerExampleApplication {
         SpringApplication.run(CodeHealerExampleApplication.class, args);
     }
 
-
     public int getSum(int[] array) {
-        String argStr = array.toString(); // Noncompliant
-        int argHash = array.hashCode(); // Noncompliant
+        String argStr = array.toString();
+        int argHash = array.hashCode();
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
@@ -22,9 +21,7 @@ public class CodeHealerExampleApplication {
     }
 
     public String getSubString(String s, int start, int end) {
-
         return s.substring(start, end);
-
     }
 
 
