@@ -1,15 +1,7 @@
 package com.hackathon.codehealerexample;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
 public class CodeHealerExampleApplication {
-
-    public static void main(String[] args) {
-        SpringApplication.run(CodeHealerExampleApplication.class, args);
-    }
-
     public int getSum(int[] array) {
         String argStr = array.toString();
         int argHash = array.hashCode();

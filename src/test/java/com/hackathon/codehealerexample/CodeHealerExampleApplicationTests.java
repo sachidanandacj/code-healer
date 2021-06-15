@@ -1,32 +1,26 @@
 package com.hackathon.codehealerexample;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.junit.Assert;
+import org.junit.Test;
 
-class CodeHealerExampleApplicationTests {
+public class CodeHealerExampleApplicationTests {
 
-    CodeHealerExampleApplication exampleApplication = new CodeHealerExampleApplication();
+    public CodeHealerExampleApplication exampleApplication = new CodeHealerExampleApplication();
 
     @Test
-    void contextLoads() {
-    }
-
-    @Test
-    void getSum() {
+    public void getSum() {
         int[] arr = {5, 5};
-        Assertions.assertEquals(10, exampleApplication.getSum(arr));
+        Assert.assertEquals(10, exampleApplication.getSum(arr));
     }
 
     @Test
-    void getSubString() {
-        Assertions.assertEquals("bc", exampleApplication.getSubString("abcd", 1, 3));
+    public void getSubString() {
+        Assert.assertEquals("bc", exampleApplication.getSubString("abcd", 1, 3));
     }
 
     @Test
-    void getSubStringForNull() {
-        Assertions.assertEquals(null, exampleApplication.getSubString(null, 0, 0));
+    public void getSubStringForNull() {
+        Assert.assertEquals(null, exampleApplication.getSubString(null, 0, 0));
     }
 
 }
